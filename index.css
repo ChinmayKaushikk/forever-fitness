@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --yellow: #FFC107;
+  --blue: #4F46E5;
+  --pink: #EC4899;
+
+  --black: #050505;
+  --dark: #0B0B0B;
+  --card: #121212;
+
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050505;
+  color: white;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+}
